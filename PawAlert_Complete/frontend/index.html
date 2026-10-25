@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="theme-color" content="#1F4E79" />
+  <meta name="description" content="PawAlert – Report animals in distress and coordinate rescue operations in real time" />
+  <title>PawAlert – Animal Rescue Incident Management</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐾</text></svg>" />
+</head>
+<body>
+  <div id="app">
+    <!-- Header -->
+    <header class="topbar">
+      <div class="brand" onclick="navigate('home')">
+        <span class="logo">🐾</span>
+        <span class="brand-name">PawAlert</span>
+      </div>
+      <nav class="nav" id="mainNav"></nav>
+      <button class="btn-icon" id="notifBtn" onclick="toggleNotifPanel()" title="Notifications" style="display:none">
+        🔔 <span class="badge" id="notifBadge" style="display:none">0</span>
+      </button>
+      <button class="btn-icon menu-toggle" onclick="toggleMobileNav()">☰</button>
+    </header>
+
+    <!-- Notification panel -->
+    <div class="notif-panel" id="notifPanel">
+      <div class="notif-header">
+        <strong>Notifications</strong>
+        <button class="btn-text" onclick="markAllRead()">Mark all read</button>
+      </div>
+      <div id="notifList" class="notif-list"></div>
+    </div>
+
+    <!-- Main content -->
+    <main id="content" class="content"></main>
+
+    <footer class="footer">
+      <p>PawAlert v1.0 · ITE 2952 · University of Moratuwa · Techeow (E2340183)</p>
+      <p class="disclaimer">PawAlert is a coordination tool, not a substitute for emergency veterinary or wildlife services for dangerous animals.</p>
+    </footer>
+  </div>
+
+  <div id="toast" class="toast"></div>
+  <script src="/js/app.js"></script>
+</body>
+</html>

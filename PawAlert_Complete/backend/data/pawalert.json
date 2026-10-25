@@ -1,0 +1,330 @@
+{
+  "organizations": [
+    {
+      "OrgID": 1,
+      "Name": "Colombo Animal Rescue Network",
+      "ServiceArea": "Colombo",
+      "ContactInfo": "contact@carn.lk | +94 11 234 5678",
+      "IsActive": 1,
+      "RegisteredAt": "2026-10-11 10:21:06"
+    },
+    {
+      "OrgID": 2,
+      "Name": "Kandy Wildlife Care",
+      "ServiceArea": "Kandy",
+      "ContactInfo": "help@kwc.lk | +94 81 222 3344",
+      "IsActive": 1,
+      "RegisteredAt": "2026-10-11 10:21:06"
+    }
+  ],
+  "users": [
+    {
+      "UserID": 1,
+      "Name": "System Admin",
+      "Email": "admin@pawalert.lk",
+      "Phone": "0700000001",
+      "PasswordHash": "ce648d12ef7014a57f8bddb1419ed8c9:fa3911ef6cb7bfb6e9f6298c81d56f86621cb94e71b89a19c1f1e20dca21785c0dcb9d19bd9d1ea7ee8aa50a398634ba5696060e9b6582cdf22174539d7df93e",
+      "Role": "Admin",
+      "OrgID": null,
+      "IsApproved": 1,
+      "IsAvailable": 1,
+      "CreatedAt": "2026-10-11 10:21:06"
+    },
+    {
+      "UserID": 2,
+      "Name": "Nimal Perera",
+      "Email": "nimal@carn.lk",
+      "Phone": "0712345678",
+      "PasswordHash": "ce648d12ef7014a57f8bddb1419ed8c9:fa3911ef6cb7bfb6e9f6298c81d56f86621cb94e71b89a19c1f1e20dca21785c0dcb9d19bd9d1ea7ee8aa50a398634ba5696060e9b6582cdf22174539d7df93e",
+      "Role": "Coordinator",
+      "OrgID": 1,
+      "IsApproved": 1,
+      "IsAvailable": 1,
+      "CreatedAt": "2026-10-11 10:21:06"
+    },
+    {
+      "UserID": 3,
+      "Name": "Saman Fernando",
+      "Email": "saman@carn.lk",
+      "Phone": "0771234567",
+      "PasswordHash": "ce648d12ef7014a57f8bddb1419ed8c9:fa3911ef6cb7bfb6e9f6298c81d56f86621cb94e71b89a19c1f1e20dca21785c0dcb9d19bd9d1ea7ee8aa50a398634ba5696060e9b6582cdf22174539d7df93e",
+      "Role": "Rescuer",
+      "OrgID": 1,
+      "IsApproved": 1,
+      "IsAvailable": 1,
+      "CreatedAt": "2026-10-11 10:21:06"
+    },
+    {
+      "UserID": 4,
+      "Name": "Kamala Silva",
+      "Email": "kamala@carn.lk",
+      "Phone": "0769876543",
+      "PasswordHash": "ce648d12ef7014a57f8bddb1419ed8c9:fa3911ef6cb7bfb6e9f6298c81d56f86621cb94e71b89a19c1f1e20dca21785c0dcb9d19bd9d1ea7ee8aa50a398634ba5696060e9b6582cdf22174539d7df93e",
+      "Role": "Rescuer",
+      "OrgID": 1,
+      "IsApproved": 1,
+      "IsAvailable": 1,
+      "CreatedAt": "2026-10-11 10:21:06"
+    },
+    {
+      "UserID": 5,
+      "Name": "Priya Wickramasinghe",
+      "Email": "priya@kwc.lk",
+      "Phone": "0755551234",
+      "PasswordHash": "ce648d12ef7014a57f8bddb1419ed8c9:fa3911ef6cb7bfb6e9f6298c81d56f86621cb94e71b89a19c1f1e20dca21785c0dcb9d19bd9d1ea7ee8aa50a398634ba5696060e9b6582cdf22174539d7df93e",
+      "Role": "Coordinator",
+      "OrgID": 2,
+      "IsApproved": 1,
+      "IsAvailable": 1,
+      "CreatedAt": "2026-10-11 10:21:06"
+    },
+    {
+      "UserID": 6,
+      "Name": "Ruwan Jayasuriya",
+      "Email": "ruwan@kwc.lk",
+      "Phone": "0744449876",
+      "PasswordHash": "ce648d12ef7014a57f8bddb1419ed8c9:fa3911ef6cb7bfb6e9f6298c81d56f86621cb94e71b89a19c1f1e20dca21785c0dcb9d19bd9d1ea7ee8aa50a398634ba5696060e9b6582cdf22174539d7df93e",
+      "Role": "Rescuer",
+      "OrgID": 2,
+      "IsApproved": 1,
+      "IsAvailable": 1,
+      "CreatedAt": "2026-10-11 10:21:06"
+    },
+    {
+      "UserID": 7,
+      "Name": "Asha De Silva",
+      "Email": "asha@email.com",
+      "Phone": "0781112233",
+      "PasswordHash": "ce648d12ef7014a57f8bddb1419ed8c9:fa3911ef6cb7bfb6e9f6298c81d56f86621cb94e71b89a19c1f1e20dca21785c0dcb9d19bd9d1ea7ee8aa50a398634ba5696060e9b6582cdf22174539d7df93e",
+      "Role": "Reporter",
+      "OrgID": null,
+      "IsApproved": 1,
+      "IsAvailable": 1,
+      "CreatedAt": "2026-10-11 10:21:06"
+    }
+  ],
+  "teams": [
+    {
+      "TeamID": 1,
+      "OrgID": 1,
+      "TeamName": "CARN Rapid Response",
+      "AvailabilityStatus": 1,
+      "ServiceArea": "Colombo",
+      "IsActive": 1
+    },
+    {
+      "TeamID": 2,
+      "OrgID": 1,
+      "TeamName": "CARN Night Patrol",
+      "AvailabilityStatus": 1,
+      "ServiceArea": "Colombo South",
+      "IsActive": 1
+    },
+    {
+      "TeamID": 3,
+      "OrgID": 2,
+      "TeamName": "KWC Field Unit",
+      "AvailabilityStatus": 1,
+      "ServiceArea": "Kandy",
+      "IsActive": 1
+    }
+  ],
+  "cases": [
+    {
+      "CaseID": "AR-2026-001",
+      "ReporterID": 7,
+      "GuestName": null,
+      "GuestPhone": null,
+      "AnimalType": "Dog",
+      "ConditionType": "Injured",
+      "UrgencyLevel": "Critical",
+      "LocationText": "Near Galle Face Green, Colombo",
+      "GeoLat": 6.9271,
+      "GeoLng": 79.8612,
+      "PhotoURL": null,
+      "Description": "Brown street dog with deep cut on left hind leg, bleeding. Unable to walk.",
+      "Status": "Pending",
+      "AssignedTeamID": null,
+      "AssignedRescuerID": null,
+      "TrackingCode": "TRK-A1B2C3",
+      "CreatedAt": "2026-10-11 10:21:06",
+      "UpdatedAt": "2026-10-11 10:21:06"
+    },
+    {
+      "CaseID": "AR-2026-002",
+      "ReporterID": null,
+      "GuestName": "Guest Reporter",
+      "GuestPhone": "0779988776",
+      "AnimalType": "Cat",
+      "ConditionType": "Trapped",
+      "UrgencyLevel": "High",
+      "LocationText": "Apartment balcony, Union Place",
+      "GeoLat": 6.9147,
+      "GeoLng": 79.8585,
+      "PhotoURL": null,
+      "Description": "Cat stuck between balcony bars for several hours.",
+      "Status": "Verified",
+      "AssignedTeamID": null,
+      "AssignedRescuerID": null,
+      "TrackingCode": "TRK-D4E5F6",
+      "CreatedAt": "2026-10-11 10:21:06",
+      "UpdatedAt": "2026-10-11 10:21:06"
+    },
+    {
+      "CaseID": "AR-2026-003",
+      "ReporterID": 7,
+      "GuestName": null,
+      "GuestPhone": null,
+      "AnimalType": "Dog",
+      "ConditionType": "Abandoned",
+      "UrgencyLevel": "Medium",
+      "LocationText": "Dehiwala beach road",
+      "GeoLat": 6.8301,
+      "GeoLng": 79.88,
+      "PhotoURL": null,
+      "Description": "Puppy left in a cardboard box near the bus stop.",
+      "Status": "Assigned",
+      "AssignedTeamID": 1,
+      "AssignedRescuerID": 3,
+      "TrackingCode": "TRK-G7H8I9",
+      "CreatedAt": "2026-10-11 10:21:06",
+      "UpdatedAt": "2026-10-11 10:21:06"
+    },
+    {
+      "Status": "Pending",
+      "AssignedTeamID": null,
+      "AssignedRescuerID": null,
+      "CreatedAt": "2026-10-11 10:21:50",
+      "UpdatedAt": "2026-10-11 10:21:51",
+      "CaseID": "AR-2026-004",
+      "ReporterID": null,
+      "GuestName": "Test User",
+      "GuestPhone": "0770001111",
+      "AnimalType": "Dog",
+      "ConditionType": "Injured",
+      "UrgencyLevel": "Critical",
+      "LocationText": "Bambalapitiya beach",
+      "GeoLat": null,
+      "GeoLng": null,
+      "PhotoURL": null,
+      "Description": "Injured dog near railway",
+      "TrackingCode": "TRK-17CEFD"
+    }
+  ],
+  "statusUpdates": [
+    {
+      "UpdateID": 1,
+      "CaseID": "AR-2026-003",
+      "UpdatedBy": 2,
+      "StatusValue": "Verified",
+      "Notes": "Confirmed genuine abandoned puppy report.",
+      "PhotoURL": null,
+      "Timestamp": "2026-10-11 10:21:06"
+    },
+    {
+      "UpdateID": 2,
+      "CaseID": "AR-2026-003",
+      "UpdatedBy": 2,
+      "StatusValue": "Assigned",
+      "Notes": "Assigned to CARN Rapid Response / Saman.",
+      "PhotoURL": null,
+      "Timestamp": "2026-10-11 10:21:06"
+    },
+    {
+      "UpdateID": 3,
+      "CaseID": "AR-2026-004",
+      "UpdatedBy": 1,
+      "StatusValue": "Pending",
+      "Notes": "Case submitted",
+      "PhotoURL": null,
+      "Timestamp": "2026-10-11 10:21:51"
+    }
+  ],
+  "notifications": [
+    {
+      "NotificationID": 1,
+      "DeliveryStatus": "Sent",
+      "IsRead": 0,
+      "SentAt": "2026-10-11 10:21:51",
+      "CaseID": "AR-2026-004",
+      "RecipientID": 3,
+      "channel": "InApp",
+      "Title": "Critical Rescue Alert",
+      "Message": "Dog – Injured at Bambalapitiya beach. Case AR-2026-004"
+    },
+    {
+      "NotificationID": 2,
+      "DeliveryStatus": "Sent",
+      "IsRead": 0,
+      "SentAt": "2026-10-11 10:21:52",
+      "CaseID": "AR-2026-004",
+      "RecipientID": 3,
+      "channel": "Push",
+      "Title": "Critical Rescue Alert",
+      "Message": "Dog – Injured at Bambalapitiya beach. Case AR-2026-004"
+    },
+    {
+      "NotificationID": 3,
+      "DeliveryStatus": "Sent",
+      "IsRead": 0,
+      "SentAt": "2026-10-11 10:21:52",
+      "CaseID": "AR-2026-004",
+      "RecipientID": 3,
+      "channel": "SMS",
+      "Title": "Critical Rescue Alert",
+      "Message": "[PawAlert CRITICAL] Dog – Injured at Bambalapitiya beach. Case AR-2026-004"
+    },
+    {
+      "NotificationID": 4,
+      "DeliveryStatus": "Sent",
+      "IsRead": 0,
+      "SentAt": "2026-10-11 10:21:53",
+      "CaseID": "AR-2026-004",
+      "RecipientID": 4,
+      "channel": "InApp",
+      "Title": "Critical Rescue Alert",
+      "Message": "Dog – Injured at Bambalapitiya beach. Case AR-2026-004"
+    },
+    {
+      "NotificationID": 5,
+      "DeliveryStatus": "Sent",
+      "IsRead": 0,
+      "SentAt": "2026-10-11 10:21:53",
+      "CaseID": "AR-2026-004",
+      "RecipientID": 4,
+      "channel": "Push",
+      "Title": "Critical Rescue Alert",
+      "Message": "Dog – Injured at Bambalapitiya beach. Case AR-2026-004"
+    },
+    {
+      "NotificationID": 6,
+      "DeliveryStatus": "Sent",
+      "IsRead": 0,
+      "SentAt": "2026-10-11 10:21:53",
+      "CaseID": "AR-2026-004",
+      "RecipientID": 4,
+      "channel": "SMS",
+      "Title": "Critical Rescue Alert",
+      "Message": "[PawAlert CRITICAL] Dog – Injured at Bambalapitiya beach. Case AR-2026-004"
+    },
+    {
+      "NotificationID": 7,
+      "DeliveryStatus": "Sent",
+      "IsRead": 0,
+      "SentAt": "2026-10-11 10:21:54",
+      "CaseID": "AR-2026-004",
+      "RecipientID": 6,
+      "channel": "InApp",
+      "Title": "Critical Rescue Alert",
+      "Message": "Dog – Injured at Bambalapitiya beach. Case AR-2026-004"
+    }
+  ],
+  "seq": {
+    "org": 2,
+    "user": 7,
+    "team": 3,
+    "update": 3,
+    "notif": 7,
+    "caseNum": 4
+  }
+}
